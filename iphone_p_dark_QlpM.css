@@ -1,0 +1,43 @@
+html,body {height:100%; overflow:hidden;}
+
+#phone {
+	background-image: url("../assets/devices/Iphone_portrait_dark.png?&v=2");
+}
+
+#container {
+	width: 27.85%;
+  	position: absolute;
+  	transform: translate(-51%, -50%);
+  	transform-origin: 100% 0%;
+  	left: 51.55%;
+    top: 50.0%;
+}
+
+#inner {
+	height: 0;
+	position: relative;
+  padding-bottom: 177.78%; /* 9:16; */
+  background-color: black;
+}
+
+#innerMsg{
+  font-size: 1.0em;
+}
+
+#closebtn{
+  width: auto;
+  height:4%;
+}
+
+#innerPhoneBevel {
+  content: url("../assets/devices/phone_corners_p_dark.png?&v=2");
+  width: 28.20%;
+  position: absolute;
+  transform: translate(-51%, -50%);
+  transform-origin: 100% 0%;
+  left: 51.52%;
+  top: 49.97%;
+  z-index: 100;
+  pointer-events:none;
+  background:none !important;
+}

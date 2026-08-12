@@ -1,0 +1,29 @@
+/*#phone {
+    background-image: url("../assets/dark/phone_p.png?");
+}*/
+
+.sidenav {
+	background: #2b2a30; /* dark */
+}
+
+
+
+#logoAlt {
+    content: url("../assets/dark/sl_logo.png");
+}
+
+#menu{
+    color:  #898989;
+}
+
+body {
+    background: rgb(161,161,161);
+    background: linear-gradient(55deg, #ede2eb 15%, #b29caa 58%, #654357 100%);
+}
+
+::-webkit-scrollbar-track {
+    background: #af0e91; 
+}
+::-webkit-scrollbar-thumb {
+    background: #ff33ca;
+}

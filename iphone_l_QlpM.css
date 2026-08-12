@@ -1,0 +1,46 @@
+#phone {
+	background-image: url("../assets/devices/2021/Iphone_landscape_s.png?&v=2");
+}
+
+
+#container{
+  /*iphone/android landscape*/
+  width: 57.7%;
+  position: absolute;
+  transform: translate(-51%, -50%);
+  transform-origin: 100% 0%;
+  left: 50%;
+  top: 50%;
+}
+
+#inner {
+  /*iphone/android landscape*/
+  height: 0;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  background-color: black;
+}
+
+#innerMsg{
+  font-size: 1.25em;
+}
+
+#closebtn{
+  width:4%;
+  height: auto;
+}
+
+#innerPhoneBevel {
+  /*background-image: url("../assets/devices/2021/phone_corners_4.png?&v=2");*/
+  content: url("../assets/devices/2021/phone_corners_6.png?&v=2");
+  /*iphone/android landscape*/
+  width: 58.0%;
+  position: absolute;
+  transform: translate(-51%, -50%);
+  transform-origin: 100% 0%;
+  left: 49.95%;
+  top: 49.95%;
+  z-index: 100;
+  pointer-events:none;
+  background:none !important;
+}
